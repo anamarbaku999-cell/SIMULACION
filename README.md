@@ -53,7 +53,7 @@ El flujo del código fuente (SU1P4E1.java) se desglosa en los siguientes 5 pasos
 
 El archivo de texto plano generado se estructura automáticamente de la siguiente manera:
 
-text´´´
+```text
 ==========================================================
    REPORTE DE GENERADOR DE NÚMEROS PSEUDOALEATORIOS
 ==========================================================
@@ -72,6 +72,7 @@ PARAMETROS UTILIZADOS:
 | 4096   | 7326         | 1.000000             |
 ----------------------------------------------------------
 FIN DEL REPORTE - GENERACIÓN EXITOSA.
+```
 
 # Unidad 1 Práctica 6: Implementación de Pruebas Estadísticas Masivas
 
