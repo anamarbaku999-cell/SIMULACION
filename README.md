@@ -73,6 +73,15 @@ PARAMETROS UTILIZADOS:
 ----------------------------------------------------------
 FIN DEL REPORTE - GENERACIÓN EXITOSA.
 
+# Unidad 1 Práctica 6: Implementación de Pruebas Estadísticas Masivas
+
+Este repositorio contiene la solución e implementación en *Java (NetBeans)* para la auditoría y certificación estadística de un generador de números pseudoaleatorios de *4096 elementos* (Periodo Completo). 
+
+El sistema evalúa de manera masiva las dos propiedades fundamentales requeridas en la simulación estocástica profesional: *Uniformidad* e *Independencia*.
+
+---
+
+
 ## 🛠️ Parámetros Certificados y Persistencia
 
 Durante la evaluación inicial con las constantes estándar ($a=17, b=9$), el generador falló drásticamente en la prueba de independencia de las corridas ($\chi_0^2 = 24.87 > 5.99$). Para corregir este comportamiento, se rediseñaron los parámetros bajo criterios de alta entropía.
