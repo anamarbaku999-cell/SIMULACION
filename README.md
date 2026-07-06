@@ -72,6 +72,7 @@ PARAMETROS UTILIZADOS:
 | 4096   | 7326         | 1.000000             |
 ----------------------------------------------------------
 FIN DEL REPORTE - GENERACIÓN EXITOSA.
+
 # Unidad 1 Práctica 6: Implementación de Pruebas Estadísticas Masivas
 
 Este repositorio contiene la solución e implementación en *Java (NetBeans)* para la auditoría y certificación estadística de un generador de números pseudoaleatorios de *4096 elementos* (Periodo Completo). 
