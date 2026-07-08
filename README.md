@@ -131,4 +131,12 @@ El entorno de desarrollo ejecuta de forma encadenada los siguientes 4 bloques de
 
 La implementación de este software de auditoría masiva demostró empíricamente que alcanzar un *Periodo Completo* en un generador congruencial no basta para validar su uso en la toma de decisiones. El rediseño y sustitución de constantes por valores de alta entropía ($a=205, b=1399$) fue crítico para neutralizar patrones ocultos y garantizar un suministro de variables uniformes, independientes y seguras para alimentar futuros modelos probabilísticos y simulaciones de Montecarlo.
 
+# Práctica 7: Investigación del Método Montecarlo
 
+¡Bienvenido! Este repositorio contiene una investigación detallada sobre el *Método Montecarlo*, desarrollada para la materia de Simulación.
+
+## 📂 Contenido del Repositorio
+
+* [📖 Explicación Detallada del Método Montecarlo](SU1P7MME.md) - Fundamentos teóricos, historia y funcionamiento.
+* [🧮 Ejemplo 1: Estimación del Valor de Pi ($\pi$)](SU1P7E1.md) - Solución geométrica mediante números pseudoaleatorios.
+* [📊 Ejemplo 2: Integración Numérica por Montecarlo](SU1P7E2.md) - Cálculo de un área bajo la curva.
