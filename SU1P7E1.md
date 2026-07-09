@@ -42,4 +42,3 @@ Al elevar el número de experimentos ($N$), la aproximación se vuelve mucho má
 
 * Para $N = 1,000 \implies \pi \approx 3.1280$
 * Para $N = 10,000 \implies \pi \approx 3.1416$
-*
