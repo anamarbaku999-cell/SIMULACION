@@ -19,7 +19,7 @@ $$\text{Área} \approx \text{Área Total} \times \frac{\text{Puntos bajo la curv
 
 ## 3. Tabla de Simulación (Primeras 5 iteraciones)
 
-| Iteración ($i$) | $U_1$ | Coordenada $x$ ($2 \cdot U_1$) | $U_2$ | Coordenada $y$ ($4 \cdot U_2$) | $f(x) = x^2$ | ¿Bajo la curva? ($y \leq f(x)$) |
+| Iteración ($i$) | $U_1$ | Coordenada $x$ ($2 \cdot U_1$) | $U_2$ | Coordenada $y$ ($4 \cdot U_2$) | $f(x) = x^2$ | ¿Bajo la curva? |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 0.250 | 0.500 | 0.100 | 0.400 | 0.250 | No |
 | 2 | 0.750 | 1.500 | 0.300 | 1.200 | 2.250 | Sí |
