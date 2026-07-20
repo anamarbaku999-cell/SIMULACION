@@ -50,7 +50,7 @@ random.seed(RANDOM_SEED)
 env = simpy.Environment()
 # Definición del recurso compartido (Cajero)
 cajero = simpy.Resource(env, capacity=NUM_CAJEROS)
-```
+
 
 # Registrar el proceso generador en el entorno
 env.process(generador_clientes(env, cajero))
@@ -58,3 +58,4 @@ env.process(generador_clientes(env, cajero))
 # Ejecutar la simulación
 env.run(until=TIEMPO_SIMULACION)
 print("--- Fin de la Simulación ---")
+```
