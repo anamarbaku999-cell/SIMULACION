@@ -23,3 +23,4 @@ env.process(tarea(env, "Proceso A"))
 
 # Ejecución de la simulación por 20 unidades de tiempo
 env.run(until=20)
+```
