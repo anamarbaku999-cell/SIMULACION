@@ -1,8 +1,12 @@
 # ¿Qué es la librería SimPy?
 
-*SimPy* es un framework de simulación basado en eventos discretos (DES) para Python. Permite modelar sistemas del mundo real donde los cambios de estado ocurren en momentos específicos del tiempo debido a la ocurrencia de eventos (como la llegada de un cliente, el fallo de una máquina o la finalización de un servicio).
+*SimPy* es un framework (biblioteca) de simulación de eventos discretos. El comportamiento de los componentes activos (como vehículos, clientes o mensajes) se modela con procesos . Todos los procesos existen en un entorno . Interactúan con el entorno y entre sí a través de eventos. Los procesos se describen mediante generadores simples de Python . Se les puede llamar función de proceso o método de proceso , según se trate de una función o método normal de una clase. Durante su ciclo de vida, crean eventos y *yield* los almacenan para esperar a que ocurran.
 
-## Conceptos Clave
+Cuando un proceso genera un evento, se suspende . SimPy reanuda el proceso cuando se produce el evento (decimos que el evento se procesa ). Varios procesos pueden esperar el mismo evento. SimPy los reanuda en el mismo orden en que lo generaron.
+
+Un tipo de evento importante es el *Timeout*. Los eventos de este tipo ocurren (se procesan) después de que ha transcurrido una cierta cantidad de tiempo (simulado). Permiten que un proceso se duerma (o mantenga su estado) durante el tiempo especificado. Un *Timeouty* todos los demás eventos se pueden crear llamando al método apropiado del Environmenten el que reside el proceso ( *Environment.timeout()* por ejemplo ).
+
+## Conceptos Clave de SimPy
 
 1.  *Environment (Entorno - simpy.Environment):* Es el motor central de la simulación. Gestiona el reloj de simulación y la ejecución de los eventos programados en orden cronológico.
 2.  *Processes (Procesos):* Son funciones generadoras de Python (def con sentencias yield). Representan a los actores activos del sistema (ej. clientes, vehículos, tareas).
