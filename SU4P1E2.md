@@ -8,7 +8,7 @@ Este ejemplo modela una situación clásica de teoría de colas (M/M/1), donde m
 import simpy
 import random
 
-# Configuración de variables aleatorias
+### Configuración de variables aleatorias
 RANDOM_SEED = 42
 NUM_CAJEROS = 1
 TIEMPO_PROMEDIO_SERVICIO = 4.0  # Minutos que tarda el cajero en atender
@@ -19,13 +19,13 @@ def cliente(env, nombre, banco):
     """Proceso que representa el comportamiento de un cliente."""
     print(f"--> {nombre} llega a la fila en el tiempo {env.now:.2f}")
     
-    # El cliente solicita el recurso (cajero)
+### El cliente solicita el recurso (cajero)
     with banco.request() as peticion:
-        # Espera su turno si el cajero está ocupado
+### Espera su turno si el cajero está ocupado
         yield peticion
         
         print(f"=== {nombre} empieza a ser atendido en el tiempo {env.now:.2f}")
-        # Genera un tiempo de servicio exponencial
+### Genera un tiempo de servicio exponencial
         tiempo_servicio = random.expovariate(1.0 / TIEMPO_PROMEDIO_SERVICIO)
         yield env.timeout(tiempo_servicio)
         
@@ -36,24 +36,24 @@ def generador_clientes(env, banco):
     contador_clientes = 0
     while True:
         contador_clientes += 1
-        # Crea e inicia el proceso individual para el nuevo cliente
+### Crea e inicia el proceso individual para el nuevo cliente
         env.process(cliente(env, f"Cliente {contador_clientes}", banco))
         
-        # Genera el tiempo de espera hasta la llegada del siguiente cliente
+### Genera el tiempo de espera hasta la llegada del siguiente cliente
         tiempo_llegada = random.expovariate(1.0 / TIEMPO_PROMEDIO_LLEGADA)
         yield env.timeout(tiempo_llegada)
 
-# Configuración e inicio del entorno de SimPy
+### Configuración e inicio del entorno de SimPy
 print("--- Iniciando Simulación de Líneas de Espera ---")
 random.seed(RANDOM_SEED)
 
 env = simpy.Environment()
-# Definición del recurso compartido (Cajero)
+### Definición del recurso compartido (Cajero)
 cajero = simpy.Resource(env, capacity=NUM_CAJEROS)
 
-# Registrar el proceso generador en el entorno
+### Registrar el proceso generador en el entorno
 env.process(generador_clientes(env, cajero))
 
-# Ejecutar la simulación
+### Ejecutar la simulación
 env.run(until=TIEMPO_SIMULACION)
 print("--- Fin de la Simulación ---")
