@@ -1,4 +1,4 @@
-# Unidad 1 Práctica 4: Generador de Números Pseudoaleatorios (Periodo Completo)
+# Generador de Números Pseudoaleatorios (Periodo Completo) - Unidad 1 Práctica 4
 
 Este repositorio contiene la implementación en *Java (NetBeans)* de un generador de números pseudoaleatorios utilizando el *Método Congruencial Lineal Mixto. El software está diseñado bajo criterios matemáticos estrictos para garantizar un **periodo completo de 4096 números únicos* antes de sufrir cualquier tipo de repetición o degradación en la secuencia.
 
@@ -74,7 +74,7 @@ PARAMETROS UTILIZADOS:
 FIN DEL REPORTE - GENERACIÓN EXITOSA.
 ```
 
-# Unidad 1 Práctica 6: Implementación de Pruebas Estadísticas Masivas
+# Implementación de Pruebas Estadísticas Masivas - Unidad 1 Práctica 6
 
 Este repositorio contiene la solución e implementación en *Java (NetBeans)* para la auditoría y certificación estadística de un generador de números pseudoaleatorios de *4096 elementos* (Periodo Completo). 
 
@@ -131,7 +131,7 @@ El entorno de desarrollo ejecuta de forma encadenada los siguientes 4 bloques de
 
 La implementación de este software de auditoría masiva demostró empíricamente que alcanzar un *Periodo Completo* en un generador congruencial no basta para validar su uso en la toma de decisiones. El rediseño y sustitución de constantes por valores de alta entropía ($a=205, b=1399$) fue crítico para neutralizar patrones ocultos y garantizar un suministro de variables uniformes, independientes y seguras para alimentar futuros modelos probabilísticos y simulaciones de Montecarlo.
 
-# Práctica 7: Investigación del Método Montecarlo
+# Investigación del Método Montecarlo - Unidad 1 Práctica 7
 
 ¡Bienvenido! Este repositorio contiene una investigación detallada sobre el *Método Montecarlo*, desarrollada para la materia de Simulación.
 
@@ -151,4 +151,3 @@ Este repositorio contiene una investigación completa y ejemplos prácticos sobr
 *   [Ejemplo 1: Simulación de un Proceso Simple](SU4P1E1.md): Simulación básica basada en un proceso con retardos de tiempo.
 *   [Ejemplo 2: Simulación de Líneas de Espera con Recursos Compartidos (M/M/1)](SU4P1E2.md): Simulación de una fila de banco utilizando recursos limitados.
 *   [Ejemplo 3: Simulación con Interrupciones y Eventos Condicionales](SU4P1E3.md): Simulación avanzada de procesos que pueden ser interrumpidos.
-*
