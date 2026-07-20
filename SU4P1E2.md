@@ -1,6 +1,6 @@
 # Ejemplo 2: Simulación de Líneas de Espera (Recurso Compartido M/M/1)
 
-Este ejemplo modela una situación clásica de teoría de colas (M/M/1), donde múltiples clientes llegan de forma aleatoria a un banco y compiten por ser atendidos por un único cajero (recurso limitado con capacidad = 1).
+Se modela una situación clásica de teoría de colas (M/M/1), donde múltiples clientes llegan de forma aleatoria a un banco y compiten por ser atendidos por un único cajero (recurso limitado con capacidad = 1).
 
 ## Código de la Simulación
 
