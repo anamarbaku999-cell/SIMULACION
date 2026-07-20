@@ -2,6 +2,8 @@
 
 Se modela un proceso básico que ejecuta una acción continua con pausas fijas de tiempo.
 
+## Código de la Simulación
+
 ```python
 import simpy
 
