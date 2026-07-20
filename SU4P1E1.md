@@ -1,6 +1,6 @@
 # Ejemplo 1: Simulación de un Proceso Simple (Retardo Temporal)
 
-Este ejemplo modela un proceso básico que ejecuta una acción continua con pausas fijas de tiempo.
+Se modela un proceso básico que ejecuta una acción continua con pausas fijas de tiempo.
 
 ```python
 import simpy
