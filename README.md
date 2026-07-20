@@ -145,9 +145,9 @@ La implementación de este software de auditoría masiva demostró empíricament
 
 Este repositorio contiene una investigación completa y ejemplos prácticos sobre el uso de la librería *SimPy* para la simulación de eventos discretos, correspondiente a la materia de Simulación.
 
-## Contenido del Repositorio
+## 📂 Contenido del Repositorio
 
-*   [¿Qué es la librería SimPy?](SU4P1QS.md) - Explicación detallada de los conceptos fundamentales, componentes principales y funcionamiento del entorno.
-*   [Ejemplo 1: Simulación de un Proceso Simple](SU4P1E1.md) - Simulación básica basada en un proceso con retardos de tiempo.
-*   [Ejemplo 2: Simulación de Líneas de Espera con Recursos Compartidos (M/M/1)](SU4P1E2.md) - Simulación de una fila de banco utilizando recursos limitados.
-*   [Ejemplo 3: Simulación con Interrupciones y Eventos Condicionales](SU4P1E3.md) - Simulación avanzada de procesos que pueden ser interrumpidos.
+*   [📖 ¿Qué es la librería SimPy?](SU4P1QS.md) - Explicación detallada de los conceptos fundamentales, componentes principales y funcionamiento del entorno.
+*   [🧮 Ejemplo 1: Simulación de un Proceso Simple](SU4P1E1.md) - Simulación básica basada en un proceso con retardos de tiempo.
+*   [📊 Ejemplo 2: Simulación de Líneas de Espera con Recursos Compartidos (M/M/1)](SU4P1E2.md) - Simulación de una fila de banco utilizando recursos limitados.
+*   [​📮​ Ejemplo 3: Simulación con Interrupciones y Eventos Condicionales](SU4P1E3.md) - Simulación avanzada de procesos que pueden ser interrumpidos.
