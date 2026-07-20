@@ -140,3 +140,15 @@ La implementación de este software de auditoría masiva demostró empíricament
 * [📖 Explicación Detallada del Método Montecarlo](SU1P7MME.md) - Fundamentos teóricos, historia y funcionamiento.
 * [🧮 Ejemplo 1: Estimación del Valor de Pi ($\pi$)](SU1P7E1.md) - Solución geométrica mediante números pseudoaleatorios.
 * [📊 Ejemplo 2: Integración Numérica por Montecarlo](SU1P7E2.md) - Cálculo de un área bajo la curva.
+
+# Investigación de la Librería SimPy - Unidad 4 Práctica 1
+
+Este repositorio contiene una investigación completa y ejemplos prácticos sobre el uso de la librería *SimPy* para la simulación de eventos discretos, correspondiente a la materia de Simulación.
+
+## Contenido del Repositorio
+
+*   [¿Qué es la librería SimPy?](SU4P1QS.md): Explicación detallada de los conceptos fundamentales, componentes principales y funcionamiento del entorno.
+*   [Ejemplo 1: Simulación de un Proceso Simple](SU4P1E1.md): Simulación básica basada en un proceso con retardos de tiempo.
+*   [Ejemplo 2: Simulación de Líneas de Espera con Recursos Compartidos (M/M/1)](SU4P1E2.md): Simulación de una fila de banco utilizando recursos limitados.
+*   [Ejemplo 3: Simulación con Interrupciones y Eventos Condicionales](SU4P1E3.md): Simulación avanzada de procesos que pueden ser interrumpidos.
+*
