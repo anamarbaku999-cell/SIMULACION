@@ -1,6 +1,6 @@
 # Ejemplo 3: Gestión de Interrupciones en Procesos
 
-Este ejemplo avanzado modela una situación del mundo real donde un proceso de producción en marcha se ve interrumpido abruptamente por un evento prioritario externo o una falla en el sistema.
+Se modela una situación del mundo real donde un proceso de producción en marcha se ve interrumpido abruptamente por un evento prioritario externo o una falla en el sistema.
 
 ## Código de la Simulación
 
