@@ -143,7 +143,7 @@ La implementación de este software de auditoría masiva demostró empíricament
 
 # Investigación de la Librería SimPy - Unidad 4 Práctica 1
 
-Este repositorio contiene una investigación completa y ejemplos prácticos sobre el uso de la librería *SimPy* para la simulación de eventos discretos, correspondiente a la materia de Simulación.
+Este repositorio contiene una investigación y ejemplos prácticos sobre el uso de la librería *SimPy* para la simulación de eventos discretos, correspondiente a la materia de Simulación.
 
 ## 📂 Contenido del Repositorio
 
