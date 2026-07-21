@@ -7,7 +7,6 @@ Se modela un proceso básico que ejecuta una acción continua con pausas fijas d
 ```python
 import simpy
 
-public class ProcesoSimple:
     # Código demostrativo conceptual traducido al flujo de procesos en SimPy
     pass
 
